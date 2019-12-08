@@ -9,8 +9,8 @@ import urllib.request as req
 # 處理: urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)>
 ssl._create_default_https_context = ssl._create_unverified_context
 
-pttNBAurl = "https://www.ptt.cc/bbs/NBA/index6495.html"
-# pttNBAurl = "https://www.ptt.cc/bbs/NBA/index.html"
+# pttNBAurl = "https://www.ptt.cc/bbs/NBA/index6495.html"
+pttNBAurl = "https://www.ptt.cc/bbs/NBA/index.html"
 # 建立一個request 物件,附加 headers 資訊
 request = req.Request(pttNBAurl, headers={
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
