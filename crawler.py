@@ -4,7 +4,7 @@ import bs4
 
 import urllib.request as req
 
-# 抓取 ptt movies html
+# 抓取 ptt NBA html
 
 # 處理: urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)>
 ssl._create_default_https_context = ssl._create_unverified_context
