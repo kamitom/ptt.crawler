@@ -9,7 +9,7 @@
 
 - crawler ptt NBA titles
 
-- [測試 URL]<http://localhost:5000/>
+- 範例網址: [測試 URL](http://localhost:5000/)
 
 ## Heroku
 
