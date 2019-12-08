@@ -9,3 +9,7 @@
 - crawler ptt NBA titles
 
 - [測試 URL]<http://localhost:5000/>
+
+## Heroku
+
+- Procfile + runtime.txt + requirements.txt
