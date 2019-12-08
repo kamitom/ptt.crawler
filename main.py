@@ -1,12 +1,11 @@
 from flask import Flask
 from faker import Faker
-import pttcrawler.nbacrawler as nba
+import pkgpttcrawler.nbacrawler as nba
 
 appheroku = Flask(__name__)  # __name__ 代表目前執行的模組
 
 fakerTest3 = Faker()
 # fakerTest3 = Faker("zh_TW")
-
 
 @appheroku.route("/")  # function 的裝飾(Decorator), 以函式為基礎,提供附加的功能
 def index():
