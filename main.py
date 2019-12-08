@@ -10,7 +10,7 @@ fakerTest3 = Faker()
 
 @appheroku.route("/")  # function 的裝飾(Decorator), 以函式為基礎,提供附加的功能
 def index():
-    return "<H1>hello Grand Maison TOKYO 2020</H1><br><H3>Heroku deploy</H3>"
+    return "<H1>hello Grand Maison TOKYO 2020</H1><H2>Heroku deploy</H2>"
 
 
 @appheroku.route("/ptt")  # function 的裝飾(Decorator), 以函式為基礎,提供附加的功能
