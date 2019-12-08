@@ -6,6 +6,6 @@
 
 ## Flask
 
-- crawler NBA titles
+- crawler ptt NBA titles
 
-- [測試URL]<http://localhost:5000/>
+- [測試 URL]<http://localhost:5000/>
